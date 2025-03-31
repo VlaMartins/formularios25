@@ -1,0 +1,31 @@
+.flex-container {
+	display: flex; 
+	background-color: #D3D3D3;
+}
+
+
+.flex-container > div {
+	background-color: white	;
+	margin: 10px;
+	padding: 20px;
+	font-size: 14px;
+	font-family: Times New Roman;
+	text-indent: 20px;
+	text-align: justify;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-family: Times New Roman;
+	margin-top: 0px;
+}
+
+.cabecalho{
+	text-align: center;
+	background-color:  #D3D3D3;
+	height: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	display: table-cell;
+}

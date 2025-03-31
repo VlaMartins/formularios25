@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Escola Virtual Vlá</title>
+	<meta charset="">
+	<style type="text/css">
+		body{
+			font-family: Calibri;
+			font-size: 18px;
+			line-height: 1.0;
+		}
+
+		h2, h3{
+			text-align: center;
+		}
+
+		h4{
+			font-size: 20px;
+			font-family: Arial;
+		}
+
+		fieldset{
+			margin-left: 30px;
+			margin-right: 20px;
+		}
+
+		select, input {
+			font-family: Verdana;
+			line-height: 1.0;
+			font-size: 13px;
+			color: #191970;
+		}
+		
+	</style>
+</head>
+<body>
+	<h2>ESCOLA VIRTUAL</h2>
+	<h3>Formulário de Pré-Matrícula</h3>
+	<hr> 
+	<br>
+	<form>
+		<fieldset> <!-- Separa as informações em blocos -->
+			<h4>Nome do Aluno: 
+				<input type="text" name="tnome" placeholder="Digite seu nome" style="text-transform: uppercase;">
+			</h4>
+			<p>Nascimento: <input type="date" name="tnasc"> </p>
+			<p>Nome da Mãe: <input type="text" name="tmae"></p>
+			<p>Nome do Pai: <input type="text" name="tpai"></p>
+			<p>Telefone: <input type="number" name="tfone"></p>
+			<p>E-mail: <input type="email" name="tmail"></p>
+		</fieldset>
+
+		<br>
+
+		<fieldset>
+			<h4> Informações da Matrícula: </h4>
+			<p> <b> Série: </b>
+				<select> <!-- Cria uma caixa de seleção estilo dropdown -->
+					<option>Educação Infantil</option>
+					<option>Ensino Fundamental I</option>
+					<option>Ensino Fundamental II </option>
+					<option>Ensino Médio </option>
+					<option>Eduação Profissional</option>
+				</select>
+			</p>
+			<br>
+
+			<p> <b> Turno:</b> <br>
+				<p> <input type="radio" name="turno" id="manha" value="manha"> Manhã </p>
+				<p> <input type="radio" name="turno" id="tarde" value="tarde"> Tarde </p>
+				<p> <input type="radio" name="turno" id="noite" value="noite"> Noite </p>
+			</p>
+			<br>
+
+			<p> <b> Atividades Extracurriculares: </b><br>
+				<p> <input type="checkbox" value="inf"> Informática </p> 
+				<p> <input type="checkbox" value="esp"> Espanhol </p>
+				<p> <input type="checkbox" value="dan"> Dança  </p>
+				<p> <input type="checkbox" value="fut"> Futebol  </p>
+				<p> <input type="checkbox" value="inf"> Violão  <br>
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
